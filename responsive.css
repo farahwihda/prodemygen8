@@ -1,0 +1,25 @@
+@media only screen and (min-width: 700px) {
+  .biodata-form-header,
+  .biodata-form {
+    width: 600px;
+  }
+  .form-baris {
+    flex-direction: row;
+    align-items: flex-start; /* To avoid stretching */
+    margin-bottom: 20px;
+  }
+  .form-baris input[type="text"],
+  .form-baris input[type="email"],
+  .form-baris input[type="date"],
+  .form-baris select,
+  .form-baris textarea {
+    width: 250px;
+    height: initial;
+  }
+  .form-baris label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+}

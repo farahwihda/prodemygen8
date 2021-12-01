@@ -1,0 +1,84 @@
+* {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5d6063;
+  background-color: #ffdbdb;
+  font-family: "Overpass Mono";
+  font-size: 16px;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.form-baris {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-baris input[type="text"],
+.form-baris input[type="email"],
+.form-baris input[type="date"],
+.form-baris select,
+.form-baris textarea {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+  margin: 0 20px 0;
+}
+
+.form-baris input[type="text"]:invalid,
+.form-baris input[type="email"]:invalid {
+  border: 1px solid #d55c5f;
+  color: #d55c5f;
+  box-shadow: none; /* Remove default red glow in Firefox */
+}
+
+.form-baris label {
+  margin-bottom: 10px;
+}
+
+.form-title {
+  text-align: center;
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+
+  width: 100%;
+  margin: 40px 0;
+  padding: 60px;
+}
+
+.form-title h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.biodata-form {
+  background-color: #f6f7f8;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+
+  width: 80%;
+  padding: 50px;
+  margin: 0 0 50px 0;
+}
+
+.contact-submit {
+  text-align: right;
+  margin: 50px 450px 0;
+}
